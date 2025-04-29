@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: webhook-catcher
+    env: docker
+    repo: https://github.com/jouwgebruikersnaam/webhook-catcher-docker
+    dockerfilePath: Dockerfile
+    plan: free
